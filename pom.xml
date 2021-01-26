@@ -150,17 +150,4 @@
         </plugins>
     </build>
 
-    <repositories>
-        <repository>
-            <id>project.local</id>
-            <name>project</name>
-            <url>file:///${project.basedir}/repo</url>
-            <snapshots>
-                <enabled>true</enabled>
-                <checksumPolicy>fail</checksumPolicy>
-            </snapshots>
-        </repository>
-    </repositories>
-    <!-- mvn deploy:deploy-file -DgroupId=com.aposentadoria -DartifactId=aposentadoria-commons -Dversion=0.0.1 -Durl=file:./repo/ -DrepositoryId=project.local -DupdateReleaseInfo=true -Dfile=target/aposentadoria-commons-0.0.1.jar-->
-
 </project>
