@@ -12,7 +12,7 @@
 
     <groupId>com.aposentadoria</groupId>
     <artifactId>aposentadoria-commons</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.1</version>
     <packaging>jar</packaging>
     <name>aposentadoria-commons</name>
     <description>Aposentadoria API</description>
@@ -161,6 +161,6 @@
             </snapshots>
         </repository>
     </repositories>
-    <!-- mvn deploy:deploy-file -DgroupId=com.aposentadoria -DartifactId=aposentadoria-commons -Dversion=0.0.1-SNAPSHOT -Durl=file:./repo/ -DrepositoryId=project.local -DupdateReleaseInfo=true -Dfile=target/aposentadoria-commons-0.0.1-SNAPSHOT.jar-->
+    <!-- mvn deploy:deploy-file -DgroupId=com.aposentadoria -DartifactId=aposentadoria-commons -Dversion=0.0.1 -Durl=file:./repo/ -DrepositoryId=project.local -DupdateReleaseInfo=true -Dfile=target/aposentadoria-commons-0.0.1.jar-->
 
 </project>
